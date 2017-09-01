@@ -1,0 +1,199 @@
+//		Data.matarry.add(new Grass(4, 7, 192, 320, 3));
+//		Data.matarry.add(new Grass(4, 7, 224, 288, 3));
+//		Data.matarry.add(new Grass(4, 7, 256, 256, 3));
+//		Data.matarry.add(new Grass(4, 7, 192, 64, 3));
+//		Data.matarry.add(new Grass(4, 7, 160, 96, 3));
+//		Data.matarry.add(new Grass(4, 7, 128, 128, 3));
+//		Data.matarry.add(new Grass(4, 7, 96, 160, 3));
+//		
+//		for (int j = 0; j < 4; j++) {
+//			Data.matarry.add(new Hard(0, 0, 224 + j * 16, 0, 3));
+//		}
+//		for (int j = 0; j < 6; j++) {
+//			Data.matarry.add(new Hard(0, 0, 96 + j * 16, 32, 3));
+//		}
+//		for (int i = 0; i < 4; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 64 + j * 16, i * 16 + 32, 3));
+//			}
+//		}
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 32 + j * 16, i * 16 + 96, 3));
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 32 + j * 16, i * 16 + 160, 3));
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 1; j++) {
+//				Data.matarry.add(new Hard(0, 0, 48 + j * 16, i * 16 + 192, 3));
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 1; j++) {
+//				Data.matarry.add(new Hard(0, 0, 0 + j * 16, i * 16 + 224, 3));
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 3; j++) {
+//				Data.matarry.add(new Hard(0, 0, 48 + j * 16, i * 16 + 256, 3));
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 32 + j * 16, i * 16 + 288, 3));
+//			}
+//		}
+//		
+//		for (int i = 0; i < 1; i++) {
+//			for (int j = 0; j < 4; j++) {
+//				Data.matarry.add(new Hard(0, 0, 32 + j * 16, i * 16 + 320, 3));
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 96 + j * 16, i * 16 + 320, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 1; i++) {
+//			for (int j = 0; j < 4; j++) {
+//				Data.matarry.add(new Hard(0, 0, 0 + j * 16, i * 16 + 400, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 6; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 192 + j * 16, i * 16 + 96, 3));
+//				
+//			}
+//		}
+//		for (int i = 0; i < 4; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 160 + j * 16, i * 16 + 128, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 6; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 128 + j * 16, i * 16 + 160, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 96 + j * 16, i * 16 + 192, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 6; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 192 + j * 16, i * 16 + 224, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 4; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 224 + j * 16, i * 16 + 224, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 6; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 256 + j * 16, i * 16 + 160, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 288 + j * 16, i * 16 + 192, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 7; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 320 + j * 16, i * 16 + 32, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 352 + j * 16, i * 16 + 128, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 288 + j * 16, i * 16 + 64, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 1; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 256 + j * 16, i * 16 + 64, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 1; j++) {
+//				Data.matarry.add(new Hard(0, 0, 368 + j * 16, i * 16 + 224, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 4; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 352 + j * 16, i * 16 + 256, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 320 + j * 16, i * 16 + 288, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 3; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 288 + j * 16, i * 16 + 320, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 384 + j * 16, i * 16 + 352, 3));
+//				
+//			}
+//		}
+//		
+//		for (int i = 0; i < 1; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				Data.matarry.add(new Hard(0, 0, 352 + j * 16, i * 16 + 368, 3));
+//				
+//			}
+//		}
